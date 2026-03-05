@@ -1,240 +1,308 @@
 [
     {
         "file_path": "\\army_podcasts\\download (1).wav",
-        "file_name": "download (1)",
-        "file_type": ".wav",
-        "file_size": 2454330,
-        "file_creation_date": "2025-09-07T01:53:20"
+        "metadata": {
+            "file_name": "download (1)",
+            "file_type": ".wav",
+            "file_size": 2454330,
+            "file_creation_date": "2025-09-07T01:53:20"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (10).wav",
-        "file_name": "download (10)",
-        "file_type": ".wav",
-        "file_size": 1358010,
-        "file_creation_date": "2025-09-03T09:49:08"
+        "metadata": {
+            "file_name": "download (10)",
+            "file_type": ".wav",
+            "file_size": 1358010,
+            "file_creation_date": "2025-09-03T09:49:08"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (11).wav",
-        "file_name": "download (11)",
-        "file_type": ".wav",
-        "file_size": 1822650,
-        "file_creation_date": "2025-09-03T09:50:42"
+        "metadata": {
+            "file_name": "download (11)",
+            "file_type": ".wav",
+            "file_size": 1822650,
+            "file_creation_date": "2025-09-03T09:50:42"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (12).wav",
-        "file_name": "download (12)",
-        "file_type": ".wav",
-        "file_size": 1430970,
-        "file_creation_date": "2025-09-03T09:51:42"
+        "metadata": {
+            "file_name": "download (12)",
+            "file_type": ".wav",
+            "file_size": 1430970,
+            "file_creation_date": "2025-09-03T09:51:42"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (13).wav",
-        "file_name": "download (13)",
-        "file_type": ".wav",
-        "file_size": 4629690,
-        "file_creation_date": "2025-09-03T09:55:26"
+        "metadata": {
+            "file_name": "download (13)",
+            "file_type": ".wav",
+            "file_size": 4629690,
+            "file_creation_date": "2025-09-03T09:55:26"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (14).wav",
-        "file_name": "download (14)",
-        "file_type": ".wav",
-        "file_size": 5683770,
-        "file_creation_date": "2025-09-03T09:57:34"
+        "metadata": {
+            "file_name": "download (14)",
+            "file_type": ".wav",
+            "file_size": 5683770,
+            "file_creation_date": "2025-09-03T09:57:34"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (15).wav",
-        "file_name": "download (15)",
-        "file_type": ".wav",
-        "file_size": 4595130,
-        "file_creation_date": "2025-09-03T10:06:34"
+        "metadata": {
+            "file_name": "download (15)",
+            "file_type": ".wav",
+            "file_size": 4595130,
+            "file_creation_date": "2025-09-03T10:06:34"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (16).wav",
-        "file_name": "download (16)",
-        "file_type": ".wav",
-        "file_size": 4255290,
-        "file_creation_date": "2025-09-03T10:08:44"
+        "metadata": {
+            "file_name": "download (16)",
+            "file_type": ".wav",
+            "file_size": 4255290,
+            "file_creation_date": "2025-09-03T10:08:44"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (17).wav",
-        "file_name": "download (17)",
-        "file_type": ".wav",
-        "file_size": 1486650,
-        "file_creation_date": "2025-09-03T10:10:22"
+        "metadata": {
+            "file_name": "download (17)",
+            "file_type": ".wav",
+            "file_size": 1486650,
+            "file_creation_date": "2025-09-03T10:10:22"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (18).wav",
-        "file_name": "download (18)",
-        "file_type": ".wav",
-        "file_size": 1354170,
-        "file_creation_date": "2025-09-03T10:12:28"
+        "metadata": {
+            "file_name": "download (18)",
+            "file_type": ".wav",
+            "file_size": 1354170,
+            "file_creation_date": "2025-09-03T10:12:28"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (19).wav",
-        "file_name": "download (19)",
-        "file_type": ".wav",
-        "file_size": 4385850,
-        "file_creation_date": "2025-09-05T03:51:14"
+        "metadata": {
+            "file_name": "download (19)",
+            "file_type": ".wav",
+            "file_size": 4385850,
+            "file_creation_date": "2025-09-05T03:51:14"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (2).wav",
-        "file_name": "download (2)",
-        "file_type": ".wav",
-        "file_size": 2607930,
-        "file_creation_date": "2025-09-03T08:59:42"
+        "metadata": {
+            "file_name": "download (2)",
+            "file_type": ".wav",
+            "file_size": 2607930,
+            "file_creation_date": "2025-09-03T08:59:42"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (20).wav",
-        "file_name": "download (20)",
-        "file_type": ".wav",
-        "file_size": 3723450,
-        "file_creation_date": "2025-09-05T04:41:58"
+        "metadata": {
+            "file_name": "download (20)",
+            "file_type": ".wav",
+            "file_size": 3723450,
+            "file_creation_date": "2025-09-05T04:41:58"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (21).wav",
-        "file_name": "download (21)",
-        "file_type": ".wav",
-        "file_size": 3304890,
-        "file_creation_date": "2025-09-05T03:53:32"
+        "metadata": {
+            "file_name": "download (21)",
+            "file_type": ".wav",
+            "file_size": 3304890,
+            "file_creation_date": "2025-09-05T03:53:32"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (22).wav",
-        "file_name": "download (22)",
-        "file_type": ".wav",
-        "file_size": 3374010,
-        "file_creation_date": "2025-09-05T04:44:08"
+        "metadata": {
+            "file_name": "download (22)",
+            "file_type": ".wav",
+            "file_size": 3374010,
+            "file_creation_date": "2025-09-05T04:44:08"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (23).wav",
-        "file_name": "download (23)",
-        "file_type": ".wav",
-        "file_size": 3604410,
-        "file_creation_date": "2025-09-05T04:45:54"
+        "metadata": {
+            "file_name": "download (23)",
+            "file_type": ".wav",
+            "file_size": 3604410,
+            "file_creation_date": "2025-09-05T04:45:54"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (24).wav",
-        "file_name": "download (24)",
-        "file_type": ".wav",
-        "file_size": 3208890,
-        "file_creation_date": "2025-09-05T04:49:24"
+        "metadata": {
+            "file_name": "download (24)",
+            "file_type": ".wav",
+            "file_size": 3208890,
+            "file_creation_date": "2025-09-05T04:49:24"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (25).wav",
-        "file_name": "download (25)",
-        "file_type": ".wav",
-        "file_size": 2930490,
-        "file_creation_date": "2025-09-05T04:50:50"
+        "metadata": {
+            "file_name": "download (25)",
+            "file_type": ".wav",
+            "file_size": 2930490,
+            "file_creation_date": "2025-09-05T04:50:50"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (26).wav",
-        "file_name": "download (26)",
-        "file_type": ".wav",
-        "file_size": 4005690,
-        "file_creation_date": "2025-09-05T04:53:10"
+        "metadata": {
+            "file_name": "download (26)",
+            "file_type": ".wav",
+            "file_size": 4005690,
+            "file_creation_date": "2025-09-05T04:53:10"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (27).wav",
-        "file_name": "download (27)",
-        "file_type": ".wav",
-        "file_size": 3281850,
-        "file_creation_date": "2025-09-05T04:55:16"
+        "metadata": {
+            "file_name": "download (27)",
+            "file_type": ".wav",
+            "file_size": 3281850,
+            "file_creation_date": "2025-09-05T04:55:16"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (28).wav",
-        "file_name": "download (28)",
-        "file_type": ".wav",
-        "file_size": 3397050,
-        "file_creation_date": "2025-09-05T04:57:08"
+        "metadata": {
+            "file_name": "download (28)",
+            "file_type": ".wav",
+            "file_size": 3397050,
+            "file_creation_date": "2025-09-05T04:57:08"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (29).wav",
-        "file_name": "download (29)",
-        "file_type": ".wav",
-        "file_size": 3368250,
-        "file_creation_date": "2025-09-05T05:00:40"
+        "metadata": {
+            "file_name": "download (29)",
+            "file_type": ".wav",
+            "file_size": 3368250,
+            "file_creation_date": "2025-09-05T05:00:40"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (3).wav",
-        "file_name": "download (3)",
-        "file_type": ".wav",
-        "file_size": 2076090,
-        "file_creation_date": "2025-09-03T09:02:10"
+        "metadata": {
+            "file_name": "download (3)",
+            "file_type": ".wav",
+            "file_size": 2076090,
+            "file_creation_date": "2025-09-03T09:02:10"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (30).wav",
-        "file_name": "download (30)",
-        "file_type": ".wav",
-        "file_size": 3193530,
-        "file_creation_date": "2025-09-05T05:03:12"
+        "metadata": {
+            "file_name": "download (30)",
+            "file_type": ".wav",
+            "file_size": 3193530,
+            "file_creation_date": "2025-09-05T05:03:12"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (31).wav",
-        "file_name": "download (31)",
-        "file_type": ".wav",
-        "file_size": 3821370,
-        "file_creation_date": "2025-09-05T05:04:58"
+        "metadata": {
+            "file_name": "download (31)",
+            "file_type": ".wav",
+            "file_size": 3821370,
+            "file_creation_date": "2025-09-05T05:04:58"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (32).wav",
-        "file_name": "download (32)",
-        "file_type": ".wav",
-        "file_size": 3736890,
-        "file_creation_date": "2025-09-05T05:06:42"
+        "metadata": {
+            "file_name": "download (32)",
+            "file_type": ".wav",
+            "file_size": 3736890,
+            "file_creation_date": "2025-09-05T05:06:42"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (33).wav",
-        "file_name": "download (33)",
-        "file_type": ".wav",
-        "file_size": 3239610,
-        "file_creation_date": "2025-09-05T05:08:34"
+        "metadata": {
+            "file_name": "download (33)",
+            "file_type": ".wav",
+            "file_size": 3239610,
+            "file_creation_date": "2025-09-05T05:08:34"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (4).wav",
-        "file_name": "download (4)",
-        "file_type": ".wav",
-        "file_size": 2193210,
-        "file_creation_date": "2025-09-03T09:04:04"
+        "metadata": {
+            "file_name": "download (4)",
+            "file_type": ".wav",
+            "file_size": 2193210,
+            "file_creation_date": "2025-09-03T09:04:04"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (5).wav",
-        "file_name": "download (5)",
-        "file_type": ".wav",
-        "file_size": 1916730,
-        "file_creation_date": "2025-09-03T09:05:32"
+        "metadata": {
+            "file_name": "download (5)",
+            "file_type": ".wav",
+            "file_size": 1916730,
+            "file_creation_date": "2025-09-03T09:05:32"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (6).wav",
-        "file_name": "download (6)",
-        "file_type": ".wav",
-        "file_size": 1997370,
-        "file_creation_date": "2025-09-03T09:07:16"
+        "metadata": {
+            "file_name": "download (6)",
+            "file_type": ".wav",
+            "file_size": 1997370,
+            "file_creation_date": "2025-09-03T09:07:16"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (7).wav",
-        "file_name": "download (7)",
-        "file_type": ".wav",
-        "file_size": 1632570,
-        "file_creation_date": "2025-09-03T09:08:10"
+        "metadata": {
+            "file_name": "download (7)",
+            "file_type": ".wav",
+            "file_size": 1632570,
+            "file_creation_date": "2025-09-03T09:08:10"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (8).wav",
-        "file_name": "download (8)",
-        "file_type": ".wav",
-        "file_size": 1611450,
-        "file_creation_date": "2025-09-03T09:44:34"
+        "metadata": {
+            "file_name": "download (8)",
+            "file_type": ".wav",
+            "file_size": 1611450,
+            "file_creation_date": "2025-09-03T09:44:34"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download (9).wav",
-        "file_name": "download (9)",
-        "file_type": ".wav",
-        "file_size": 1672890,
-        "file_creation_date": "2025-09-03T09:47:24"
+        "metadata": {
+            "file_name": "download (9)",
+            "file_type": ".wav",
+            "file_size": 1672890,
+            "file_creation_date": "2025-09-03T09:47:24"
+        }
     },
     {
         "file_path": "\\army_podcasts\\download.wav",
-        "file_name": "download",
-        "file_type": ".wav",
-        "file_size": 2331450,
-        "file_creation_date": "2025-09-03T08:56:04"
+        "metadata": {
+            "file_name": "download",
+            "file_type": ".wav",
+            "file_size": 2331450,
+            "file_creation_date": "2025-09-03T08:56:04"
+        }
     }
 ]

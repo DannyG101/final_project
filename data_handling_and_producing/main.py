@@ -1,24 +1,14 @@
-import datetime
-from pathlib import Path
-import json
+from config import S1Config
+from data_handler import DataHandler
+from producer import KafkaPublisher
+from orchestrator import S1Orchestrator
+
 import logging
 logging.basicConfig(level="INFO")
-logger = logging.getLogger(__name__)
 
+config = S1Config()
+data_handler = DataHandler(logging.getLogger(DataHandler.__module__))
+producer = KafkaPublisher(config.kafka_bootstrap_servers, "podcasts", logging.getLogger(KafkaPublisher.__module__))
+orchestrator = S1Orchestrator(data_handler, producer, logging.getLogger(S1Orchestrator.__module__))
 
-logger.info("Beginning metadata extraction process")
-data = []
-p = Path('/army_podcasts')
-for file in p.iterdir():
-    metadata = {"file_path": str(file),
-                "file_name": file.stem,
-                "file_type": file.suffix,
-                "file_size": file.stat().st_size,
-                "file_creation_date": datetime.datetime.fromtimestamp(file.stat().st_ctime).isoformat()}
-    data.append(metadata)
-
-logger.info("Inserting into json")
-with open("data/files.json", "w") as f:
-    json.dump(data, f, indent=4)
-logger.info("Inserted all metadata into json")
-
+orchestrator.run("/army_podcasts")
