@@ -11,6 +11,6 @@ class ElasticSearch:
         for item in data:
             item_id = f"{item['metadata']['file_name']}-{item['metadata']['file_size']}"
             metadata = item['metadata']
-            self.es.index(index='test_index', id=item_id, document=metadata)
+            self.es.index(index='podcasts_index', id=item_id, document=metadata)
         self.logger.info("Saved to Elastic Search")
 
