@@ -13,6 +13,7 @@ class Orchestrator:
         self.elastic_search.save_to_elasticsearch(item_id, text)
 
     def run(self):
+        self.logger.info("Beginning text extraction process")
         while True:
             data = self.consumer.consume()
             self.handle_event(data)
