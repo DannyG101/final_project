@@ -8,20 +8,20 @@ class S2Orchestrator:
 
     def run(self):
         self.logger.info("Beginning to consume and save data")
+        while True:
+            data = self.consumer.consume()
+            self.mongo_db.save_to_mongo(data)
 
-        data = self.consumer.consume()
-        self.mongo_db.save_to_mongo(data)
+            self.elastic_search.save_to_elasticsearch(data)
+            self.logger.info("Completed to consume and save data")
 
-        self.elastic_search.save_to_elasticsearch(data)
-        self.logger.info("Completed to consume and save data")
-
-        self.logger.info("Publishing data to STT Service")
-        for item in data:
-            file_path = item['file_path']
-            item_id = f"{item['metadata']['file_name']}-{item['metadata']['file_size']}"
-            new_data = {"file_path": file_path, "item_id": item_id}
-            self.producer.publish_to_kafka(new_data)
-            self.logger.info("published data to STT Service")
+            self.logger.info("Publishing data to STT Service")
+            for item in data:
+                file_path = item['file_path']
+                item_id = f"{item['metadata']['file_name']}-{item['metadata']['file_size']}"
+                new_data = {"file_path": file_path, "item_id": item_id}
+                self.producer.publish_to_kafka(new_data)
+                self.logger.info("published data to STT Service")
 
 
 

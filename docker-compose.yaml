@@ -16,7 +16,7 @@ services:
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
 
       KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092,CONTROLLER://0.0.0.0:9093
-      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
       KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
 
       KAFKA_LOG_DIRS: /tmp/kraft-combined-logs
@@ -74,6 +74,48 @@ services:
       timeout: 5s
       retries: 5
       start_period: 20s
+
+  data_handler:
+    build: ./data_handling_and_producing
+    container_name: data_handler
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+      ES_URI: http://elasticsearch:9200
+    volumes:
+      - C:/army_podcasts:/army_podcasts
+    depends_on:
+      - data_consumer
+
+  data_consumer:
+    build: ./consuming and db
+    container_name: data_consumer
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+      ES_URI: http://elasticsearch:9200
+      MONGO_URI: mongodb://mongo:27017/
+    depends_on:
+      - stt
+
+  stt:
+    build: ./STT
+    container_name: stt
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+      ES_URI: http://elasticsearch:9200
+
+    depends_on:
+      - text_analyzer
+
+  text_analyzer:
+    build: ./text_analyzer
+    container_name: text_analyzer
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+      ES_URI: http://elasticsearch:9200
+
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
 
 
 volumes:
