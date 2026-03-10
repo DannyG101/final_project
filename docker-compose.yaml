@@ -93,6 +93,9 @@ services:
       KAFKA_BOOTSTRAP_SERVERS: kafka:9092
       ES_URI: http://elasticsearch:9200
       MONGO_URI: mongodb://mongo:27017/
+
+    volumes:
+      - C:/army_podcasts:/army_podcasts
     depends_on:
       - stt
 
@@ -102,7 +105,8 @@ services:
     environment:
       KAFKA_BOOTSTRAP_SERVERS: kafka:9092
       ES_URI: http://elasticsearch:9200
-
+    volumes:
+      - C:/army_podcasts:/army_podcasts
     depends_on:
       - text_analyzer
 
